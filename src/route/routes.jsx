@@ -3,10 +3,11 @@ import About from "../pages/About"
 import NotFound from "../pages/NotFound"
 import Homes from "../pages/Homes"
 
+
 const routes = [
     { path: "/", element: <Home />, 
         children: [
-            { index: true, element: <Homes /> }, 
+            // { index: true, element: <Homes /> }, 
             { path: "homes", element: <Homes /> },
             
         ] 
