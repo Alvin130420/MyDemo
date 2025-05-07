@@ -3,8 +3,12 @@ import React from 'react'
 
 export default function Homes() {
   return (
-    <div>
-      This is Homes
+    
+      <div className='bg-green-600 text-3xl text-center mt-5'>
+
+        
+      <h1>helloooo hatersss...i am learning tailwind css</h1>
+    
     
     </div>
   )
