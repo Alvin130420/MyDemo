@@ -1,11 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-function Colors() {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  const Colors = {
+    primary: '#4f39f6',
+  };
 
-export default Colors
+  
+
+
+export default Colors;

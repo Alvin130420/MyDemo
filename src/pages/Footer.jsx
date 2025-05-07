@@ -1,9 +1,11 @@
 import React from 'react'
-
+import Colors from "../components/Colors"
 function Footer() {
+    
   return (
-    <div>
+    <div style={{color:Colors.primary}}>
       footer
+      
     </div>
   )
 }
