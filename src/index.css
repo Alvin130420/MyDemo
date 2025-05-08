@@ -1,1 +1,4 @@
 @import "tailwindcss";
+:root {
+    --my-gradient: linear-gradient(to right, red, blue);
+}

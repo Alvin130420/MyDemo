@@ -1,20 +1,13 @@
-import Navbar from "../pages/Navbar"
 import Hero from "../pages/Hero"
 import NotFound from "../pages/NotFound"
-import Footer from "../pages/Footer"
-
+import Navbar from "../pages/Navbar"
+import { Children } from "react"
 
 
 const routes = [
-    { path: "/",  
-        children: [ 
-            { path: "hero", element: <Hero /> },
-            
-            
-
-            
-        ] ,
-       },
+    { path: "/", element:<Hero/>, 
+        children:[{path:"/", element:<Hero/>}]
+     },
     { path: "*", element: <NotFound />, },
 ]
 export default routes
