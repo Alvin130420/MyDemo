@@ -1,18 +1,24 @@
-import Home from "../pages/Home"
-import About from "../pages/About"
+import Navbar from "../pages/Navbar"
+import Hero from "../pages/Hero"
 import NotFound from "../pages/NotFound"
-import Homes from "../pages/Homes"
+import Footer from "../pages/Footer"
+import About from "../pages/About"
+import Features from "../pages/Features"
+
 
 
 const routes = [
-    { path: "/", element: <Home />, 
-        children: [
-            // { index: true, element: <Homes /> }, 
-            { path: "homes", element: <Homes /> },
+    { path: "/",  
+        children: [ 
+            { path: "hero", element: <Hero /> },
             
-        ] 
-    },
-    { path: "/about", element: <About />, },
+            
+
+            
+        ] ,
+       },
     { path: "*", element: <NotFound />, },
-]
+    { path: "/about", element: <About />, },
+    { path: "/features", element: <Features />, },
+    ]
 export default routes
