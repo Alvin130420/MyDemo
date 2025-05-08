@@ -1,5 +1,9 @@
 import Hero from "../pages/Hero"
 import NotFound from "../pages/NotFound"
+import Footer from "../pages/Footer"
+import Pricing from "../pages/Pricing"
+import Institutions from "../pages/Institutions"
+
 import Navbar from "../pages/Navbar"
 import { Children } from "react"
 
