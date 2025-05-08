@@ -6,6 +6,9 @@ import AppNavigation from './route/AppNavigation'
 import FAQSections from './components/FAQSections'
 import About from './pages/About'
 import Features from './pages/Features'
+import Pricing from './pages/Pricing'
+import Institutions from './pages/Institutions'
+
 function App() {
  return(
   <div>
@@ -13,10 +16,10 @@ function App() {
     <AppNavigation />
     <About />
     <Features />
+    <Pricing />
+    <Institutions />
     <FAQSections />
     <Footer/>
-
-
   </div>
  )
 }
