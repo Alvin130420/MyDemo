@@ -3,7 +3,7 @@ import React from 'react'
 function Button(props) {
     let btnStyle;
     if(props.type == "btn-outline"){
-        btnStyle = 'w-full text-white border-2 border-white px-5 p-[12px] min-w-24 font-sans transition duration-200 rounded-full shadow-2xl cursor-pointer hover:bg-[#ffffff1a]'
+        btnStyle = 'w-full text-white border-2 border-white px-5 p-[12px] min-w-24 font-sans transition duration-200 rounded-full shadow-2xl cursor-pointer hover:bg-indigo-700'
     }
     else if(props.type == "btn-primary"){
         btnStyle ='w-full bg-indigo-600 text-white p-[8px] px-4 min-w-24 font-sans rounded-full transition duration-200 shadow-2xl cursor-pointer hover:bg-indigo-700/50'

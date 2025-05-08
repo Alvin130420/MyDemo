@@ -5,9 +5,9 @@ import { Children } from "react"
 
 
 const routes = [
-    { path: "/", element:<Hero/>, 
-        children:[{path:"/", element:<Hero/>}]
-     },
+    { path: "", element:<Hero/>},
     { path: "*", element: <NotFound />, },
+    // { path: "pricing", element: <Pricing />, },
+    // { path: "institutions", el   ement: <Institutions />, }
 ]
 export default routes
