@@ -2,12 +2,12 @@ import Accordion from "./Accordion";
 
 export default function FAQSections() {
     return (
-      <div className="flex  flex-col space-y-3 text-center bg-white w-full items-center justify-center ">
-        <div className="p-3 ">
-          <h2 className="text-3xl font-bold text-indigo-800 mb-3">
+      <div className="flex mt-5 flex-col space-y-3 text-center bg-white w-full items-center justify-center md:mx-auto md:w-3xl ">
+        <div className="p-3 w-full ">
+          <h2 className="text-3xl font-bold text-indigo-800 mb-3 md:text-4xl ">
             Frequently Asked Questions
           </h2>
-          <p className="text-xl text-gray-600 mb-14">
+          <p className="text-xl text-gray-600 mb-14  md:mb-17">
             Find answers to common questions about our platform.
           </p>
 
@@ -16,10 +16,6 @@ export default function FAQSections() {
               title="How does Elite Edu Tech protect student data?"
               accordionOpen={true}
               answer="We take data privacy seriously. All student data is encrypted both in transit and at rest. We comply with FERPA, COPPA, and GDPR regulations. Our platform undergoes regular security audits, and we never sell student data to third parties."
-            />
-            <Accordion
-              title="Something here"
-              answer="Answer 2 :  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, beatae excepturi. Illo amet obcaecati, quaerat hic ipsam a distinctio harum possimus ea similique voluptatem totam eius ipsum vel omnis minima!"
             />
             <Accordion
               title="Can Elite Edu Tech integrate with existing LMS platforms?"
@@ -48,6 +44,12 @@ export default function FAQSections() {
             />
           </div>
         </div>
+        <a
+          href="#"
+          className=" mt-8 mb-20 md:mt-5 text-indigo-500 font-semibold md:mb-20 md:text-md"
+        >
+          View all FAQs
+        </a>
       </div>
     );
 };
