@@ -15,7 +15,7 @@ let testimonials = [
   },
   {
     image: "./src/assets/white.svg",
-    testimony: "Person 2 said...",
+    testimony: "Person 2  - The AI Learning Assistant has completely changed how I study.It's like having a personal tutor available 24/7. My grades have improved significantly since I started using Elite Edu Tech, and I feel much more confident in my abilities.",
     testifier: "Person 2",
     testifierInfo: "Undergraduate Student, Stanford University",
     isActive: false,
@@ -23,7 +23,7 @@ let testimonials = [
   },
   {
     image: "./src/assets/white.svg",
-    testimony: "Person 3 said...",
+    testimony: "Person 3 - The AI Learning Assistant has completely changed how I study.It's like having a personal tutor available 24/7. My grades have improved significantly since I started using Elite Edu Tech, and I feel much more confident in my abilities.",
     testifier: "Person 3",
     testifierInfo: "Undergraduate Student, Stanford University",
     isActive: false,

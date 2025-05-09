@@ -14,7 +14,7 @@ export default function TestimonialsCard({ image, rating, isActive, testimony, t
       <div className={isActive ? " my-10 w-full" : " hidden "} data-aos="fade-left">
         <div className="flex shadow-xl p-7 md:flex-row  flex-col rounded-xl bg-white w-full justify-center items-center ">
           <img src={image} alt="" className="rounded-full my-2 size-25 md:ml-10" />
-          <div className="md:flex md:flex-col md:ml-20 ">
+          <div className="md:flex md:flex-col md:ml-20 md:w-full ">
             <p className="w-full text-left">
               <StarsRating rating={rating} />
             </p>
