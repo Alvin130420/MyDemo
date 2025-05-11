@@ -12,6 +12,6 @@ const routes = [
     { path: "", element:<Hero/>},
     { path: "*", element: <NotFound />, },
     // { path: "pricing", element: <Pricing />, },
-    // { path: "institutions", el   ement: <Institutions />, }
+    // { path: "institutions", element: <Institutions />, }
 ]
 export default routes
