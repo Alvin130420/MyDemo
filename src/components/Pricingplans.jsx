@@ -1,36 +1,60 @@
 const pricingPlans = [
     {
-      title: "Free",
+      title: "Starter",
       price: "0",
-      description: "Basic access to educational tools for individual students.",
+      description: "For small schools up to 100 students.",
       features: [
-        "Limited library access",
-        "Basic AI assistance",
-        "5 practice tests per month",
+        "Basic student management",
+        "Gradebook",
+        "Attendance tracking",
+        "Basic reporting",
+        "Financial management",
+        "Student portal",
+        
+      ],
+    },
+
+    {
+      title: "Standard",
+      price: "29",
+      description: "For growing schools up to 250 students",
+      features: [
+      " Everything in Starter",
+        "Financial management",
+        "Student portal",
+        "SMS notifications",
+        "Advanced reporting",
+        "Biometric attendance",
       ],
     },
     {
-      title: "Student",
+      title: "Premium",
       price: "12",
-      description: "Complete access for individual students and learners.",
+      description: "For established schools up to 500 students",
       features: [
-        "Full library access",
-        "Advanced AI tutoring",
-        "Unlimited practice tests",
-        "Progress tracking",
+       " Everything in Standard",
+        " Biometric attendance",
+        "Teacher platform",
+        "Advanced analytics",
+        "Parent mobile app",
+        "Priority support",
       ],
       isPopular: true,
     },
+   
     {
-      title: "Pro",
+      title: "Enterprise",
       price: "29",
-      description: "Perfect for educators, schools, and institutions.",
+      description: "For large schools with 500+ students",
       features: [
-        "Everything in Student plan",
-        "Admin dashboard",
-        "Custom branding",
-        "API access",
+       " Everything in Premium",
+        "Customized solutions",
+       " API access",
+        "Dedicated support team",
+       " On-site training",
+        "Custom integrations",
       ],
+      isEnterprice :true,
     },
   ];
   

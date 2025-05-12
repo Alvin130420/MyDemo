@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '../components/Button'
 import { Outlet } from 'react-router-dom'
-import { Triangle } from 'lucide-react'
+import {Triangle} from 'lucide-react'
 
 function Hero() {
   return (
