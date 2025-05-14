@@ -13,7 +13,7 @@ export default function TestimonialsCard({ image, rating, isActive, testimony, t
    
     return (
       <div
-        className="my-10 w-full md:max-w-[216px]  lg:max-w-[384px]  md:max-h-[512px] md:mr-5  "
+        className="my-10 mb-0 w-full md:max-w-[216px]  lg:max-w-[384px]  md:max-h-[512px] md:mr-5  "
         data-aos="fade-left "
       >
         <div className="flex shadow-xl py-5 px-6   flex-col rounded-xl bg-white w-full justify-center items-center ">
