@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function FooterLink(props) {
   const detail = props.details.map((el, index) => 
-    <li key={index} className="hover:text-indigo-400 transition duration-200 mb-2">
+    <li key={index} className="hover:text-indigo-400 transition duration-200 mb-1">
         <Link  to={el.to}>{el.link}</Link>
     </li>
   )

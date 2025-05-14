@@ -31,20 +31,20 @@ export default function Features() {
           const isEven = index % 2 === 0;
           
           return(
-          <div className='grid grid-cols-1 md:grid-cols-2 gap-8 mt-9 md:mb-25'>
+          <div key={index}  className='grid grid-cols-1 md:grid-cols-2 gap-8 mt-9 md:mb-25'>
             <div className={`${isEven ? "md:order-1" : "md:order-2"}`}>
               <h1 className='font-bold text-indigo-800 text-2xl mt-2'>{product.title}</h1>
               <p className="text-gray-600 my-4">{product.text}</p>
               {product.listProducts.map((listProduct, i) => (
-                <ul className="mb-1">
-                  <li key={i} className="mb-1">{listProduct}</li>
+                <ul key={i} className="mb-1">
+                  <li  className="mb-1">{listProduct}</li>
               </ul>
               ))}
               <div className="max-w-[120px] mt-5"><Button type={"btn-primary"} text={"Learn More"}/></div>
             </div>
             <div className={`border-indigo-200  ${isEven ? "md:order-2" : "md:order-1"}`}>
               <div className="w-full max-w-xl h-[300px] text-2xl flex justify-center items-center md:mb-24">
-                <img alt={product.cardName} src={`https://placehold.co/600x400/indigo/white?text=${product.cardName}`} class="hover:shadow-indigo-200/50 transition rounded-xl shadow-2xl" />   
+                <img alt={product.cardName} src={`https://placehold.co/600x400/indigo/white?text=${product.cardName}`} className="hover:shadow-indigo-200/50 transition rounded-xl shadow-2xl" />   
               </div>
             </div>
           </div>

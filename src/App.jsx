@@ -8,11 +8,10 @@ import Pricing from "./pages/Pricing"
 import Institutions from './pages/Institutions'
 import  Features  from '../src/pages/Features'
 import About from '../src/pages/About'
-import Testimonials from './pages/Testimonials'
+// import Testimonials from './pages/Testimonials'
 import Contact from './pages/Contact'
-// import Pricing from '../src/pages/Pricing'
-// import Institutions from '../src/pages/Institutions' 
-// import FAQSections from '../src/components/FAQSections'
+import Testimonial from './pages/Testimonial'
+
 function App() {
  return(
   <div>
@@ -23,11 +22,10 @@ function App() {
     <Pricing/>
     <Institutions/>
     <FAQSections />
-    <Testimonials />
+    {/* <Testimonials /> */}
+    <Testimonial />
     <Contact />
     <Footer/>
-
-
   </div>
  )
 }
