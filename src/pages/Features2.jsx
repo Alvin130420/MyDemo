@@ -2,7 +2,7 @@ import React from 'react'
 import Button from '../components/Button';
 import { Check } from 'lucide-react';
 
-export default function Features() {
+export default function Features2() {
 
   const products = [{title: "Smart CBT",
                     text: "Our advanced Computer-Based Testing system makes assessments seamless, secure, and smart with automatic grading and detailed analysis.",
@@ -36,12 +36,7 @@ export default function Features() {
           
           return(
           <div className='grid grid-cols-1 md:grid-cols-2 gap-8 mt-9 md:mb-25'>
-            <div className={`border-indigo-200  ${isEven ? "md:order-2" : "md:order-1"} mb-10 md:mb-0`}>
-              <div className="w-full max-w-xl h-[300px] text-2xl flex justify-center items-center md:mb-24">
-                <img alt={product.cardName} src={`https://placehold.co/600x400/blue/white?text=${product.cardName}`} class="hover:shadow-indigo-200/50 transition rounded-xl shadow-2xl" />   
-              </div>
-            </div>
-            <div className={`${isEven ? "md:order-1" : "md:order-2"} mb-12 md:mb-0`}>
+            <div className={`${isEven ? "md:order-1" : "md:order-2"} sm:mb-12`}>
               <h1 className='font-bold text-indigo-600 text-2xl mt-2'>{product.title}</h1>
               <p className="text-gray-600 my-4">{product.text}</p>
               {product.listProducts.map((listProduct, i) => (
@@ -50,6 +45,11 @@ export default function Features() {
               </ul>
               ))}
               <div className="max-w-[120px] mt-5"><Button type={"btn-danger"} text={"Try it Now"}/></div>
+            </div>
+            <div className={`border-indigo-200  ${isEven ? "md:order-2" : "md:order-1"} sm:mt-5 sm:mb-10`}>
+              <div className="w-full max-w-xl h-[300px] text-2xl flex justify-center items-center md:mb-24">
+                <img alt={product.cardName} src={`https://placehold.co/600x400/blue/white?text=${product.cardName}`} class="hover:shadow-indigo-200/50 transition rounded-xl shadow-2xl" />   
+              </div>
             </div>
           </div>
         )})}
