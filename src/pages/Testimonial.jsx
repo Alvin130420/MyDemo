@@ -22,7 +22,7 @@ let testimonials = [
     rating: 2,
   },
   {
-    image: "assets/testimonial images/oguz-yagiz.jpg",
+    image: "assets/testimonial images/alex-suprun.jpg",
     testimony:
       "Person 3 - The AI Learning Assistant has completely changed how I study.It's like having a personal tutor available 24/7. My grades have improved significantly since I started using Elite Edu Tech, and I feel much more confident in my abilities.",
     testifier: "Oguy Yagiz",
