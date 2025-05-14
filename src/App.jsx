@@ -6,9 +6,9 @@ import AppNavigation from "../src/route/AppNavigation"
 import FAQSections from './components/FAQSections'
 import Pricing from "./pages/Pricing"
 import Institutions from './pages/Institutions'
-import  Features  from '../src/pages/Features'
 import About from '../src/pages/About'
 // import Testimonials from './pages/Testimonials'
+import Testimonial from './pages/Testimonial'
 import Contact from './pages/Contact'
 import Getintouch from './pages/Getintouch'
 // import Pricing from '../src/pages/Pricing'
