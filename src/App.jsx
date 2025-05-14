@@ -8,7 +8,7 @@ import Pricing from "./pages/Pricing"
 import Institutions from './pages/Institutions'
 import  Features  from '../src/pages/Features'
 import About from '../src/pages/About'
-import Testimonials from './pages/Testimonials'
+// import Testimonials from './pages/Testimonials'
 import Contact from './pages/Contact'
 import Getintouch from './pages/Getintouch'
 // import Pricing from '../src/pages/Pricing'
@@ -24,12 +24,11 @@ function App() {
     <Pricing/>
     <Institutions/>
     <FAQSections />
-    <Testimonials />
+    {/* <Testimonials /> */}
+    <Testimonial />
     <Contact />
     <Getintouch />
     <Footer/>
-
-
   </div>
  )
 }
