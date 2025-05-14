@@ -46,10 +46,15 @@ export default function Features() {
               <p className="text-gray-600 my-4">{product.text}</p>
               {product.listProducts.map((listProduct, i) => (
                 <ul className="mb-1">
-                  <li key={i} className="mb-1 flex gap-2"><span className='text-blue-600'><Check /></span>{listProduct}</li>
+                  <li key={i} className="mb-1">{listProduct}</li>
               </ul>
               ))}
-              <div className="max-w-[120px] mt-5"><Button type={"btn-danger"} text={"Try it Now"}/></div>
+              <div className="max-w-[120px] mt-5"><Button type={"btn-primary"} text={"Learn More"}/></div>
+            </div>
+            <div className={`border-indigo-200  ${isEven ? "md:order-2" : "md:order-1"}`}>
+              <div className="w-full max-w-xl h-[300px] text-2xl flex justify-center items-center md:mb-24">
+                <img alt={product.cardName} src={`https://placehold.co/600x400/indigo/white?text=${product.cardName}`} class="hover:shadow-indigo-200/50 transition rounded-xl shadow-2xl" />   
+              </div>
             </div>
           </div>
         )})}

@@ -13,6 +13,7 @@ function App() {
   return (
     
    <div className=" pt-20 pb-10  mx-auto bg-blue-50 ">
+     <div className=" mx-auto ">
     <h1 className=" text-center text-3xl md:text-4xl font-extrabold text-indigo-900 mb-4">Simple, Transparent Pricing</h1>
     <p className="text-center text-xl  font-semibold text-gray-600 not-italic">Choose the plan that works best for your educational needs.</p>
         
@@ -25,7 +26,8 @@ function App() {
       ))}
     </div>
     
-    <Addons items={addonPlans} />
+   <div className="px-4"> <Addons items={addonPlans} /></div>
+   </div>
    </div>
   );
 }

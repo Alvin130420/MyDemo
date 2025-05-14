@@ -8,9 +8,11 @@ import Navbar from "../pages/Navbar"
 import { Children } from "react"
 
 
+
 const routes = [
     { path: "", element:<Hero/>},
     { path: "*", element: <NotFound />, },
+   
     // { path: "pricing", element: <Pricing />, },
     // { path: "institutions", element: <Institutions />, }
 ]
