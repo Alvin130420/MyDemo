@@ -9,7 +9,7 @@ export default function TestimonialsCard({ image, rating, isActive, testimony, t
     useEffect(() => {
         AOS.init({})
     }, [isActive])
-  
+   
     return (
       <div className={isActive ? " my-10 w-full" : " hidden "} data-aos="fade-left">
         <div className="flex shadow-xl p-7 md:flex-row  flex-col rounded-xl bg-white w-full justify-center items-center ">

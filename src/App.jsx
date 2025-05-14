@@ -24,8 +24,6 @@ function App() {
     <Testimonials />
     <Contact />
     <Footer/>
-
-
   </div>
  )
 }
