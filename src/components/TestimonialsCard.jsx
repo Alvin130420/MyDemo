@@ -9,7 +9,8 @@ export default function TestimonialsCard({ image, rating, isActive, testimony, t
     useEffect(() => {
         AOS.init({})
     }, [])
-  
+ 
+   
     return (
       <div
         className="my-10 w-full md:max-w-[216px]  lg:max-w-[384px]  md:max-h-[512px] md:mr-5  "
