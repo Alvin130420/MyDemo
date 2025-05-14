@@ -1,0 +1,8 @@
+.focus:focus {
+  border: none;
+  outline: none;
+}
+
+flex-grow {
+    flex-grow: 2;
+}
