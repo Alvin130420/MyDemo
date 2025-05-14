@@ -17,7 +17,6 @@ function App() {
     <Navbar/>
     <AppNavigation />
     <About/>
-    <Features/>
     <Pricing/>
     <Institutions/>
     <FAQSections />
