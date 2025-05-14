@@ -14,6 +14,7 @@ import Getintouch from './pages/Getintouch'
 // import Pricing from '../src/pages/Pricing'
 // import Institutions from '../src/pages/Institutions' 
 // import FAQSections from '../src/components/FAQSections'
+import Testimonial from "../src/pages/Testimonial"
 function App() {
  return(
   <div>

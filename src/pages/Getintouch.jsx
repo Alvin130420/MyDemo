@@ -65,30 +65,30 @@ function Getintouch(){
                     <form className="space-y-4 pr-8">
                         <div className="md:grid-cols-2 grid grid-cols-1 gap-4">
                         <div>
-                            <label className="text-white text-sm" for="fullname">Full Name</label><br></br>
+                            <label className="text-white text-sm" htmlFor="fullname">Full Name</label><br></br>
                             <input className=" border border-white focus:outline-none px-4 py-2 w-full placeholder-white rounded-lg" type="text" id="fullname" name="fullname" placeholder="your name"></input>
                         </div>
                         <div>
-                            <label className="text-white text-sm" for= "email">Email</label><br></br>
+                            <label className="text-white text-sm" htmlFor= "email">Email</label><br></br>
                             <input className=" border border-white focus:outline-none px-4 py-2 w-full placeholder-white rounded-lg" type="text" id="email" name="email" placeholder="your name"></input>
                         </div>
 
                         </div>
                         <div>
-                            <label className="text-white text-sm" name="phone" for="phone">Phone Number</label><br></br>
+                            <label className="text-white text-sm" name="phone" htmlFor="phone">Phone Number</label><br></br>
                             <input type="number" id="phone" className="border border-white focus-outline-none placeholder-white w-full px-4 py-2 rounded-lg"placeholder="Your phone number" ></input>
                         </div>
                         <div>
-                            <label className="text-white text-sm" name="schoolname" for= "schoolname">School Name</label><br></br>
+                            <label className="text-white text-sm" name="schoolname" htmlFor= "schoolname">School Name</label><br></br>
                             <input type="text"id="schoolname" className="border border-white placeholder-white w-full px-4 py-2 rounded-lg"placeholder="Your School Name" ></input>
                         </div>
                         <div>
-                            <label className="text-white text-sm" name="message" for= "message" >Message</label><br></br>
+                            <label className="text-white text-sm" name="message" htmlFor= "message" >Message</label><br></br>
                             <textarea type="textarea" id="message" rows="4" className="border border-white placeholder-white w-full px-4 py-2 rounded-lg"placeholder="How can we help you" />
                         </div>
                         <div className="items-center flex">
                             <input type="checkbox" name= "check" className="h-4 w-4 rounded" id="check"></input>
-                            <label className="text-white text-sm ml-2 " for="check">I agree </label>
+                            <label className="text-white text-sm ml-2 " htmlFor="check">I agree </label>
                         </div>
                         <div>
                             <button type="submit" className="text-white rounded-xl px-4 py-2 border border-white w-full ">
