@@ -8,9 +8,7 @@ import Pricing from "./pages/Pricing"
 import Institutions from './pages/Institutions'
 import  Features  from '../src/pages/Features'
 import About from '../src/pages/About'
-// import Pricing from '../src/pages/Pricing'
-// import Institutions from '../src/pages/Institutions' 
-// import FAQSections from '../src/components/FAQSections'
+
 function App() {
  return(
   <div>
